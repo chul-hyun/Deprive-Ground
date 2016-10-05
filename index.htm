@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="kr" xml:lang="kr">
+  <head>
+    <meta charset="UTF-8">
+<title> </title>
+<link rel="stylesheet" type="text/css" href="boardGame.css">
+
+<script src="base\Event.js"></script>
+<script src="base\ajax.js"></script>
+<script src="base\dom.js"></script>
+
+<script src='addEvent.js'></script>
+</head>
+
+<body>
+<div class='defalut' id='setting'>
+	보드판 크기:<input id='num' type='number' min='10' max='50' step='10' value='10'></input>
+	돌 놓는 허용 범위:<input id='line_range' type='range' min='3' max='15' step='1' value='5'></input><output id='line_range_value' value='5'></output>
+	<div id='playeres'>
+		<input type='color' id='player_1' value='#ed1c24'></input>
+		<input type='color' id='player_2' value='#3f48cc'></input>
+		<img src='img/delet.png' class='none' id='delet'> 
+		<input type='button' id='player_add' value='player추가' class='defalut'></input>
+	</div>
+	<input id='strat' type='button' value='게임시작'></input>
+</div>
+<div class='none' id='playing'>
+	<input id='reset_button' type='button' value='다시시작'></input>
+
+	<canvas id='borad' height='2500' width='2500'></canvas>
+</div>
+<div class='none' id='loading'>
+	<progress id='loading_view' value='0' max='1'>Loading...</progress>
+</div>
+<div class='result_view' id='result_view'>
+</div>
+
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+.defalut {
+}
+
+.none {
+	display: none
+}
+.result_view {
+	position:fixed;
+	top:15px;
+	right:15px;
+}
