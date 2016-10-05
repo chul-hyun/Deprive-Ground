@@ -9,8 +9,8 @@
 
 ## 시작화면 (15x15 2명)
 
-![1](https://github.com/qkrcjfgus33/Deprive-Ground/raw/master/2.png)
+![1](https://github.com/qkrcjfgus33/Deprive-Ground/raw/master/3.png)
 
 ## 플레이 화면 (15x15 2명)
 
-![1](https://github.com/qkrcjfgus33/Deprive-Ground/raw/master/3.png)
+![1](https://github.com/qkrcjfgus33/Deprive-Ground/raw/master/2.png)
